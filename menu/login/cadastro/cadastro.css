@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(112, 112, 112, 1);
+  height: 100vh;
+  
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60vh;
+  height: 65vh;
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: .2rem;
+  
+}
+.titulo h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+}
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column
+}
+input{
+  margin-bottom: 1.3rem;
+  width: 23rem;
+  height: 2.8rem;
+  border-radius: .3rem;
+  border: none;
+  padding: .5rem;
+  font-size: .9rem;
+  outline: 0;
+  color: rgba(121, 121, 121, 1);
+}
+button{
+  display: flex;
+  align-items: center;
+  width: 23rem;
+  height: 2.8rem;
+  border-radius: .3rem;
+  border: none;
+}
+
+.entrar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(85, 175, 77, 1);
+  color: white;
+  margin-top: 1.5rem;
+  margin-bottom: 1.3rem;
+  font-family: 'Inter', sans-serif;
+  font-size:1.5rem;
+}
+.google{
+  background-color: white;
+  margin-bottom: 1.3rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+}
+.google img{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+.facebook{
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+}
+.facebook img{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 3.7rem;
+  margin-right: .8rem;
+}
+header img{
+  margin: .5rem;
+  width: 5rem;
+  height: 5rem;
+}
+p{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}

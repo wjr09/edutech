@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,
+body{
+  height: 100vh;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+main{
+  background-color:#18422D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quadrado{
+  background-color: #E8DFC2;
+  height: 90vh;
+  width: 190vh;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+   
+.one{
+  font-weight: 400;
+  font-size: 3.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-inline: 5rem;
+  margin-bottom: 3rem;
+  
+}
+
+.two{
+  color: #FF0000;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  margin-bottom:5rem;
+  
+}
+ 
+ button{
+    width: 15rem;
+    height: 5rem;
+    background: #55AF4D;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 500;
+    border: none;
+ }
+.primeira_img img{
+  display: flex;
+  transform: translate(0,auto);
+  position: absolute;
+  left: 6rem;
+  width: 10rem;
+  height:10rem;
+  margin-top: 1rem;
+}
+.segunda_img img{
+  margin-top: 2rem;
+}

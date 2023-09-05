@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html,
+body{
+  height: 100vh;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #18422D;
+}
+
+h2{
+    margin-top: 8rem;
+    color: #55AF4D;
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 7.1rem;
+    text-align: center;
+}
+
+button{
+    margin-top: 4rem;
+    width: 15rem;
+    height: 5rem;
+    background: #55AF4D;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 500;
+    border: none;
+ }
+
+ .jornada{
+    background-color: #E8DFC2;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.4);
+    height: 50vh;  
+ }
+
+ .primeira{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+    margin-top: 17.9158rem;
+    margin-bottom: 30rem;
+ }
+
+ .segunda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18rem;
+ }
+
+ .terceira{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17rem;
+ }
+
+.itens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+ 

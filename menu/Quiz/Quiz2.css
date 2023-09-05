@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height:100vh;
+  background-color:#18422D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+main{
+  background-color: #E8DFC2;
+  height: 90vh;
+  width:90%;
+  border-radius: 2rem;
+  
+  
+}
+.pergunta{
+  display:flex;
+  text-align:center;
+  flex-direction:row;
+  margin-inline: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.resposta_a{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-block:2rem;
+}
+.resposta_b{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-block:2rem;
+}
+.resposta_c{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-block:2rem;
+}
+.resposta_d{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-block:2rem;
+}
+.resposta_a h2{
+  background-color:rgba(14, 40, 27, 1);
+  width:5rem;
+  height:5rem;
+  color: white;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction:column;
+  margin-right: .5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.5rem;
+  
+}
+.resposta_b h2{
+  background-color:rgba(14, 40, 27, 1);
+  width:5rem;
+  height:5rem;
+  color: white;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  margin-right: .5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.5rem;
+  
+}
+.resposta_c h2{
+  background-color:rgba(14, 40, 27, 1);
+  width:5rem;
+  height:5rem;
+  color: white;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  margin-right: .5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.5rem;
+}
+.resposta_d h2{
+  background-color:rgba(14, 40, 27, 1);
+  width:5rem;
+  height:5rem;
+  color: white;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  margin-right: .5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.5rem;
+}
+.resposta_a p{
+  width:70rem;
+  height:5rem;
+  background-color: ;
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  flex-direction:column;
+  background-color:gray;
+  font-family: 'Inter', sans-serif;
+  font-size:1.3rem;
+}
+.resposta_b p{
+  width:70rem;
+  height:5rem;
+  background-color: ;
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  flex-direction:column;
+  background-color:gray;
+  font-family: 'Inter', sans-serif;
+  font-size:1.3rem;
+}
+.resposta_c p{
+  width:70rem;
+  height:5rem;
+  background-color: ;
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  flex-direction:column;
+  background-color:gray;
+  font-family: 'Inter', sans-serif;
+  font-size:1.3rem;
+}
+.resposta_d p{
+  width:70rem;
+  height:5rem;
+  background-color: ;
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  flex-direction:column;
+  background-color:gray;
+  font-family: 'Inter', sans-serif;
+  font-size:1.3rem;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22rem;
+    padding-bottom: 22rem;
+    transition: background-color 0.3s, color 0.3s;
+}

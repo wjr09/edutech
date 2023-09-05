@@ -1,0 +1,81 @@
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body{
+
+  font-size: 1.6rem;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: url(images/IndexIMG.png);
+  height: 100vh;
+}
+
+h1{
+  font-size: 9.6rem;
+  font-weight: 400;
+  font-family: 'Righteous', cursive;
+  color: #163A38;
+}
+.btn_iniciar {
+  width: 15rem;
+  height: 5rem;
+  background: #163A38;
+  border-radius: 1rem;
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 11.6rem;
+  
+}
+
+main {
+  background: #18422D;
+  padding-top: 20rem;
+}
+
+section {
+  color: #55AF4D;
+  background: #E8DFC2;
+  font-size: 5.8rem;
+  padding: 0 9.5rem 9.5rem 9.5rem;
+  max-width: 51.7rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+section .icon {
+  box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.40);
+  background: #E8DFC2;
+  border-radius: 50%;
+  width: fit-content;
+  padding: 2rem;
+  margin-top: -8rem;
+}

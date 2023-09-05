@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+  height: 100%;
+}
+body{
+    background: url(../images/IndexIMG.png);
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    background-color: rgba(22, 58, 56, 1);
+    height: 20rem;
+    width: 20rem;
+    border-radius: .6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    width: 13rem;
+    height: 3rem;
+    background: #163A38;
+    border-radius: .7rem;
+    color: white;
+    font-weight: 500;
+    border: none;
+    margin-top: 1.5rem;  
+    font-size:1.3rem;
+  }
+.conteudo{
+  background-color: rgba(85, 175, 77, 1);
+  font-family: 'Comfortaa', cursive;
+  cursor: pointer;
+  
+}
+
+.quiz{
+  background-color: rgba(232, 223, 194, 1);
+  font-family: 'Comfortaa', cursive;
+  cursor: pointer;
+}
+.login{
+  background-color: rgba(187, 195, 187, 1);
+  font-family: 'Comfortaa', cursive;
+  cursor: pointer;
+}
+.suporte{
+  background-color: rgba(250, 195, 0, 1);
+  font-family: 'Comfortaa', cursive;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: rgba(246, 252, 224, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h2{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+.texto1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  
+  
+}
+.texto1 p{
+  font-family: 'Comfortaa', cursive;
+  color: rgba(85, 175, 77, 1);
+  margin-inline-start: 18rem;
+  margin-inline-end:10rem;
+}
+.texto1 img{
+  width: 20rem;
+  height: 20rem;
+  margin-inline-end: 18rem;
+  
+}
+
+.texto2 img{
+  width: 20rem;
+  height: 20rem;
+  margin-inline-start: 16rem;
+  margin-right: 8rem;
+}
+.texto2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.texto2 p{
+  font-family: 'Comfortaa', cursive;
+  color: rgba(85, 175, 77, 1);
+  margin-inline-end: 16rem;
+}
+.botao {
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(24, 66, 45, 1);
+  border-radius: 1rem;
+  border: none;
+}
