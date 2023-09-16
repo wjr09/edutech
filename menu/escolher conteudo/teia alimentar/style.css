@@ -41,6 +41,12 @@ button{
   border: none;
   margin-block: 2rem;
 }
+nav ul{
+    text-align: left;
+    
+    
+    margin-left: 11rem;
+}
 .logo{
   width: 5rem;
   height: 5rem;
