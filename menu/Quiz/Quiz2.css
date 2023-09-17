@@ -17,16 +17,22 @@ main{
   height: 90vh;
   width:90%;
   border-radius: 2rem;
-  
-  
 }
+img{
+  width: 5rem;
+  height: 5rem;
+  margin: .5rem;
+}
+
+
+
 .pergunta{
   display:flex;
   text-align:center;
   flex-direction:row;
   margin-inline: 6rem;
-  margin-top: 2rem;
-  margin-bottom: 8rem;
+ 
+  margin-bottom: 3rem;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
