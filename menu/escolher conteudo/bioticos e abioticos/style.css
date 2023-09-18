@@ -21,7 +21,7 @@ h2{
 
 main{
   width: 96%;
-  height: 96vh;
+  
   background: #E8DFC2;
   margin-inline:2rem;
   margin-block: 2rem;
@@ -67,4 +67,9 @@ button{
 .button{
   text-align: center;
 }
-
+.logo{
+  margin-inline: .5rem;
+  padding-block: .5rem;
+  width: 5rem;
+  height: 6rem;
+}
