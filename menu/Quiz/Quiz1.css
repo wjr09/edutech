@@ -44,6 +44,16 @@ main{
   
 }
 
+.three{
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  margin-bottom:2rem;
+}
+
 .two{
   color: #FF0000;
   font-weight: 400;
