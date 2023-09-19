@@ -1,38 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quizz Conhecimento Gerais</title>
+    <title>Quiz</title>
     <link rel="stylesheet" href="Quiz2.css">
     <script src="Quiz1.js" defer></script>
 </head>
 <body>
     <main>
-        <div class="logo">
-            <img src="../../images/logo.png" alt="">
+            
+        
+        <div id="score-container" class="hide">
+            <h2>Parabéns</h2>
+            <p id="display-score"><span>90</span>%</p>
+            <p>Você acertou <span id="correct-answer">0</span> de <span id="questions-qtd">10</span>perguntas</p>
+            <button class="resetar" id="restart">Refazer </button>
+            <a href="../menu.html"><button class="resetar">voltar</button></a>
         </div>
         
-        <div id="caixa-pontua" class="esconder">
-            <h2>Parabéns</h2>
-            <p id="mostrar-pontuacao"><span>90</span>%</p>
-            <p>Você acertou <span id="resposta-correta">0</span> de <span id="quantidade-de-perguntas">10</span>perguntas</p>
-            <button id="resetar">Refazer quizz!</button>
-        </div>
-
-        <div id="pontuacao-quiz">
-            <h2 id="questao">
-                <span id="numero-questao">1</span> - <span id="questao-texto">pergunta aqui?</span>
-            </h2>   
-            <div id="caixa-de-resposta">
-                <button><span class="letra-botao">a</span> <span class="questao-resposta">asd12</span></button>
-                <button><span class="letra-botao">b</span> <span class="questao-resposta">as153</span></button>
-                <button><span class="letra-botao">c</span> <span class="questao-resposta">ad165</span></button>
-                <button><span class="letra-botao">d</span> <span class="questao-resposta">gfdgf</span></button>
+        <div id="quiz-container">
+            <p id="question">
+                <span id="question-number">1</span> - <span id="question-text">pergunta aqui?</span>
+            </p>
+            <div id="answers-box">
+                <button><span class="btn-letter">a</span> <span class="question-answer">asd12</span></button>
+                <button><span class="btn-letter">b</span> <span class="question-answer">as153</span></button>
+                <button><span class="btn-letter">c</span> <span class="question-answer">ad165</span></button>
+                <button><span class="btn-letter">d</span> <span class="question-answer">gfdgf</span></button>
             </div>
         </div>
 
-        <button class="template-resposta"><span class="letra-botao">a</span> <span class="respostas-questao">asd12</span></button>
+        
+        <button class="answer-template hide"><span class="btn-letter">a</span> <span class="question-answer">asd12</span></button>
     </main>
+    
 </body>
 </html>
