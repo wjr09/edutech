@@ -51,6 +51,7 @@ button{
     font-weight: 500;
     border: none;
     font-family: 'Comfortaa', cursive; 
+    cursor: pointer;
 }
 .botao{
   display: flex;
